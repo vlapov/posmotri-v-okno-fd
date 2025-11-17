@@ -118,7 +118,7 @@ ol {
   border-bottom: 1px solid #fff;
   border-left: none;
   color: #fff;
-  font-family: 'Fira Sans Condensed';
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   line-height: 22px;
   background-color: transparent;
@@ -167,7 +167,7 @@ ol {
   opacity: 1;
 }
 
-.search-form__checkbox-list .search-form__label:hover .search-form__label-text {
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline;
 }
 
@@ -176,7 +176,7 @@ ol {
   margin-left: 3px;
   border: 1px solid #fff;
   color: #fff;
-  font-family: 'Fira Sans Condensed';
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 700;
   font-size: 18px;
   background-color: transparent;
@@ -190,7 +190,7 @@ ol {
 }
 
 .more-button {
-  width: 100%;
+  max-width: 100%;
 }
 
 .button:hover {
@@ -220,7 +220,7 @@ ol {
 
 .title {
   margin-bottom: 5px;
-  font-family: 'Oswald';
+  font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 75px;
   line-height: 94%;
@@ -235,8 +235,7 @@ ol {
   position: relative;
   height: 298px;
   padding: 3px 3px 3px 0;
-  overflow-x: hidden;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .content__list-container,
@@ -280,7 +279,7 @@ ol {
 .content__video-card-title {
   max-width: 190px;
   overflow: hidden;
-  font-family: 'Oswald';
+  font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 100%;
